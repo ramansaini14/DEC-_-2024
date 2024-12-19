@@ -1,0 +1,84 @@
+/* .box{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    margin: 10px;
+}
+.Static{
+    position: static;
+}
+.Fixed{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+.Sticky{
+    width: 100%;
+    position: sticky;
+    top: 0px;
+}
+.parent{
+    border: 2px solid black;
+    height: 300px;
+    position: relative;
+}
+.Relative{
+    position: relative;
+    left: 100px;
+    top: 20px;
+}
+.Absolute{
+    position: absolute;
+    top: 10px;
+} */
+/* div{
+    color: brown;
+    background-color: bisque;
+    border: 2px solid black;
+    height: 100px;
+    width: 200px;
+}
+p{
+    font-size: x-large;
+    display: none;
+}
+div:hover + p{
+    display: block;
+} */
+/* 
+input {
+    background-color: aquamarine;
+}
+
+input:focus {
+    background-color: azure;
+}
+
+a {
+    color: red;
+    display: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    background-color: aquamarine;
+}
+
+a:focus {
+    background-color: yellow;
+} */
+ /* li:nth-child(odd){
+    background-color: aqua;
+ } */
+  div{
+    height: 100px;
+    width: 100px;
+    background-color: bisque;
+    overflow:hidden;
+  }
+  div:hover{
+    overflow: visible;
+  }
