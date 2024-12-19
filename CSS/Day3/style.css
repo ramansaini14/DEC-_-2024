@@ -1,0 +1,93 @@
+/* .container{
+    border: 2px solid black;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+.box{
+    border: 2px solid black;
+    height: 250px;
+    width: 33.33%;
+    box-sizing: border-box;
+
+
+}
+.img1{
+    background: url("./image.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+body{
+    
+    
+    
+} */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    border-bottom: 1px solid black;
+    height: 70px;
+}
+
+h2 {
+    /* border: 2px solid black; */
+
+}
+
+ul {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 230px;
+
+}
+
+li {
+    /* border: 2px solid black; */
+    list-style-type: none;
+
+}
+
+main {
+    width: 100%;
+    background: url("./image.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: calc(100vh - 70px);
+    padding: 0px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 10rem;
+
+}
+
+p {
+    /* border: 2px solid black; */
+    /* text-decoration: overline dashed; */
+
+    text-decoration: line-through wavy;
+}
+
+button {
+    height: 100px;
+    width: 200px;
+}
+
+del {}
