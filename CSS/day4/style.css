@@ -1,0 +1,52 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.mainBox{
+    width: 100vw;
+    height: 400px;
+    display: flex;
+}
+.boxes{
+    border: 2px solid black;
+    height: 400px;
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    height: 50px;
+    width: 50px;
+}
+.mrgn{
+    margin-bottom: 30px;
+}
+.para{
+    writing-mode: vertical-lr;
+    border: 2px solid black;
+} */
+
+.cls {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    /* transform: translate(200px, 200px) rotate(-90deg) scale(); */
+    transform: translate(200px, 200px) scale(2) skewY(45deg);
+    /* transform: translateX(200px); */
+}
+
+input[type="text"] {
+    width: 100px;
+}
+
+input[type="text"]:hover {
+    background-color: black;
+    color: white;
+}
+
+input[type="text"]:focus {
+    width: 200px;
+}
